@@ -56,7 +56,7 @@ if ( ! class_exists( 'SucomUtilMetabox' ) ) {
 				$is_added     = isset( $metadata[ $meta_key ] ) ? false : true;
 				$meta_key     = SucomUtil::sanitize_meta_key( $meta_key );
 				$meta_key_esc = esc_html( $meta_key );
-				$value        = self::array_maybe_unserialize( $value );
+				$value        = is_string( $value ) ? $value : self::array_maybe_unserialize( $value );
 				$value_esc    = esc_html( var_export( $value, true ) );
 				$table_row_id = SucomUtil::sanitize_key( $metabox_id . '_' . $obj_id . '_' . $meta_key );
 				$onclick_js   = 'sucomDeleteMeta( \'' . $metabox_id . '\', \'' . $obj_id . '\', \'' . $meta_key . '\', \'' . $admin_l10n . '\' );';
