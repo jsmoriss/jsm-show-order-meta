@@ -17,7 +17,7 @@ if ( ! class_exists( 'JsmSomConfig' ) ) {
 		public static $cf = array(
 			'plugin' => array(
 				'jsmsom' => array(			// Plugin acronym.
-					'version'     => '4.0.0-dev.1',	// Plugin version.
+					'version'     => '4.0.0',	// Plugin version.
 					'slug'        => 'jsm-show-order-meta',
 					'base'        => 'jsm-show-order-meta/jsm-show-order-meta.php',
 					'text_domain' => 'jsm-show-order-meta',
