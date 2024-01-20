@@ -21,6 +21,24 @@ The JSM Show Order Metadata for WooCommerce plugin displays order meta keys and 
 
 There are no plugin settings - simply install and activate the plugin.
 
+= Available Filters =
+
+Filter the post meta shown in the metabox:
+
+<pre><code>'jsmsom_metabox_table_metadata' ( $metadata, $order_obj )</code></pre>
+
+Array of regular expressions to exclude meta keys:
+
+<pre><code>'jsmsom_metabox_table_skip_keys' ( $skip_keys, $order_obj )</code></pre>
+
+Capability required to show order meta:
+
+<pre><code>'jsmsom_show_metabox_capability' ( 'manage_options', $order_obj )</code></pre>
+
+Capability required to delete order meta:
+
+<pre><code>'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )</code></pre>
+
 = Related Plugins =
 
 * [JSM Show Comment Metadata](https://wordpress.org/plugins/jsm-show-comment-meta/)
