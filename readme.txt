@@ -17,6 +17,10 @@ Show WooCommerce order metadata (aka custom fields) in a metabox when editing or
 
 == Description ==
 
+The JSM Show Order Metadata for WooCommerce plugin displays order meta keys and their unserialized values in a metabox at the bottom of the order editing page.
+
+There are no plugin settings - simply install and activate the plugin.
+
 = Related Plugins =
 
 * [JSM Show Comment Metadata](https://wordpress.org/plugins/jsm-show-comment-meta/)
