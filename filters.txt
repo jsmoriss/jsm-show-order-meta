@@ -1,11 +1,9 @@
 
-'jsmsom_metabox_table_metadata' ( $metadata, $post_obj )	// Filter the post meta shown in the metabox.
+'jsmsom_metabox_table_metadata' ( $metadata, $order_obj )	// Filter the post meta shown in the metabox.
 
-'jsmsom_metabox_table_skip_keys' ( $skip_keys, $post_obj )	// Array of regular expressions to exclude meta keys.
+'jsmsom_metabox_table_skip_keys' ( $skip_keys, $order_obj )	// Array of regular expressions to exclude meta keys.
 
-'jsmsom_show_metabox_capability' ( 'manage_options', $post_obj )	// Capability required to show post meta.
+'jsmsom_show_metabox_capability' ( 'manage_options', $order_obj )	// Capability required to show post meta.
 
-'jsmsom_show_metabox_post_type' ( true, $post_type )	// Show post meta for this post type (defaults to true).
-
-'jsmsom_delete_meta_capability' ( 'manage_options', $post_obj )	// Capability required to delete post meta.
+'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )	// Capability required to delete post meta.
 

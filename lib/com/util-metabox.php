@@ -26,7 +26,7 @@ if ( ! class_exists( 'SucomUtilMetabox' ) ) {
 			$skip_keys      = apply_filters( $metabox_id . '_metabox_table_skip_keys', $skip_keys, $obj );
 			$del_icon_class = apply_filters( $metabox_id . '_delete_meta_icon_class', 'dashicons dashicons-table-row-delete' );
 			$delete_cap     = apply_filters( $metabox_id . '_delete_meta_capability', 'manage_options', $obj );
-			$can_delete     = current_user_can( $delete_cap, $obj_id );
+			$can_delete     = current_user_can( $delete_cap, $obj_id, $obj );
 
 			$metabox_html = self::get_table_metadata_css( $metabox_id );
 			$metabox_html .= '<table><thead>' . "\n";

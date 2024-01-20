@@ -37,13 +37,9 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			}
 
 			$show_cap = apply_filters( 'jsmsom_show_metabox_capability', 'manage_options', $obj );
-			$can_show = current_user_can( $show_cap, $order_id );
+			$can_show = current_user_can( $show_cap, $order_id, $obj );
 
 			if ( ! $can_show ) {
-
-				return;
-
-			} elseif ( ! apply_filters( 'jsmsom_show_metabox_post_type', true, $post_type ) ) {
 
 				return;
 			}
@@ -119,7 +115,7 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			$table_row_id = SucomUtil::sanitize_key( $metabox_id . '_' . $obj_id . '_' . $meta_key );
 			$order_obj    = wc_get_order( $obj_id );
 			$delete_cap   = apply_filters( 'jsmsom_delete_meta_capability', 'manage_options', $order_obj );
-			$can_delete   = current_user_can( $delete_cap, $obj_id );
+			$can_delete   = current_user_can( $delete_cap, $obj_id, $order_obj );
 
 			if ( ! $can_delete ) {
 
