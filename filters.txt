@@ -1,9 +1,11 @@
 
-'jsmsom_metabox_table_metadata' ( $metadata, $order_obj )	// Filter the post meta shown in the metabox.
+'jsmsom_metabox_table_metadata' ( array $metadata, $order_obj )		// Filter the order meta shown in the metabox.
 
-'jsmsom_metabox_table_skip_keys' ( $skip_keys, $order_obj )	// Array of regular expressions to exclude meta keys.
+'jsmsom_metabox_table_skip_keys' ( array $skip_keys, $order_obj )	// Array of regular expressions to exclude meta keys.
 
-'jsmsom_show_metabox_capability' ( 'manage_options', $order_obj )	// Capability required to show post meta.
+'jsmsom_show_metabox_capability' ( 'manage_options', $order_obj )	// Capability required to show order meta.
 
-'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )	// Capability required to delete post meta.
+'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )	// Capability required to delete order meta.
+
+'jsmsom_delete_meta_icon_class' ( 'dashicons dashicons-table-row-delete' )	// Icon for the delete order meta button.
 
