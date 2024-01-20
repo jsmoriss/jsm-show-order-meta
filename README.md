@@ -20,13 +20,13 @@
 
 <h4>Available Filters</h4>
 
-<p>Filter the post meta shown in the metabox:</p>
+<p>Filter the order meta shown in the metabox:</p>
 
-<pre><code>'jsmsom_metabox_table_metadata' ( $metadata, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_metadata' ( array $metadata, $order_obj )</code></pre>
 
 <p>Array of regular expressions to exclude meta keys:</p>
 
-<pre><code>'jsmsom_metabox_table_skip_keys' ( $skip_keys, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_skip_keys' ( array $skip_keys, $order_obj )</code></pre>
 
 <p>Capability required to show order meta:</p>
 
@@ -35,6 +35,10 @@
 <p>Capability required to delete order meta:</p>
 
 <pre><code>'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )</code></pre>
+
+<p>Icon for the delete order meta button:</p>
+
+<pre><code>'jsmsom_delete_meta_icon_class' ( 'dashicons dashicons-table-row-delete' )</code></pre>
 
 <h4>Related Plugins</h4>
 

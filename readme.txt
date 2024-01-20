@@ -23,13 +23,13 @@ There are no plugin settings - simply install and activate the plugin.
 
 = Available Filters =
 
-Filter the post meta shown in the metabox:
+Filter the order meta shown in the metabox:
 
-<pre><code>'jsmsom_metabox_table_metadata' ( $metadata, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_metadata' ( array $metadata, $order_obj )</code></pre>
 
 Array of regular expressions to exclude meta keys:
 
-<pre><code>'jsmsom_metabox_table_skip_keys' ( $skip_keys, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_skip_keys' ( array $skip_keys, $order_obj )</code></pre>
 
 Capability required to show order meta:
 
@@ -38,6 +38,10 @@ Capability required to show order meta:
 Capability required to delete order meta:
 
 <pre><code>'jsmsom_delete_meta_capability' ( 'manage_options', $order_obj )</code></pre>
+
+Icon for the delete order meta button:
+
+<pre><code>'jsmsom_delete_meta_icon_class' ( 'dashicons dashicons-table-row-delete' )</code></pre>
 
 = Related Plugins =
 
