@@ -79,6 +79,29 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			foreach ( wp_list_pluck( $obj->get_meta_data(), 'key' ) as $key ) {
 
 				$metadata[ $key ] = $obj->get_meta( $key, $single = false );
+
+				if ( is_array( $metadata[ $key ] ) ) {	// Just in case.
+
+					$num = 0;
+					$arr = array();
+
+					foreach ( $metadata[ $key ] as $arr_obj ) {
+
+						if ( $arr_obj instanceof WC_Meta_Data ) {	// Just in case.
+
+							$arr[ $num ] = $arr_obj->get_data();
+
+							$num++;
+						}
+					}
+
+					if ( ! empty( $arr ) ) {
+
+						$metadata[ $key ] = $arr;
+					}
+
+					unset( $arr );
+				}
 			}
 
 			$skip_keys  = array();
