@@ -29,7 +29,7 @@ Filter the order meta shown in the metabox:
 
 Array of regular expressions to exclude meta keys:
 
-<pre><code>'jsmsom_metabox_table_skip_keys' ( array $skip_keys, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_exclude_keys' ( array $exclude_keys, $order_obj )</code></pre>
 
 Capability required to show order meta:
 
