@@ -21,7 +21,7 @@ The JSM Show Order Metadata for WooCommerce plugin displays order meta keys and 
 
 There are no plugin settings - simply install and activate the plugin.
 
-= Available Filters =
+= Available Filters for Developers =
 
 Filter the order meta shown in the metabox:
 
