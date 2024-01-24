@@ -26,7 +26,7 @@
 
 <p>Array of regular expressions to exclude meta keys:</p>
 
-<pre><code>'jsmsom_metabox_table_skip_keys' ( array $skip_keys, $order_obj )</code></pre>
+<pre><code>'jsmsom_metabox_table_exclude_keys' ( array $exclude_keys, $order_obj )</code></pre>
 
 <p>Capability required to show order meta:</p>
 
