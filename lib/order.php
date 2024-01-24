@@ -80,28 +80,32 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 				$metadata[ $key ] = $obj->get_meta( $key, $single = false );
 
-				if ( is_array( $metadata[ $key ] ) ) {	// Just in case.
-
-					$num = 0;
-					$arr = array();
-
-					foreach ( $metadata[ $key ] as $arr_obj ) {
-
-						if ( $arr_obj instanceof WC_Meta_Data ) {	// Just in case.
-
-							$arr[ $num ] = $arr_obj->get_data();
-
-							$num++;
-						}
-					}
-
-					if ( ! empty( $arr ) ) {
-
-						$metadata[ $key ] = $arr;
-					}
-
-					unset( $arr );
-				}
+				/*
+				 * The array should be a single WC_Meta_Data object.
+				 *
+				 * if ( is_array( $metadata[ $key ] ) ) {	// Just in case.
+				 *
+				 * 	$num  = 0;
+				 * 	$data = array();
+				 *
+				 * 	foreach ( $metadata[ $key ] as $wc_meta_data_obj ) {
+				 *
+				 * 		if ( $wc_meta_data_obj instanceof WC_Meta_Data ) {	// Just in case.
+				 *
+				 * 			$data[ $num ] = $wc_meta_data_obj->get_data();
+				 *
+				 * 			$num++;
+				 * 		}
+				 * 	}
+				 *
+				 * 	if ( ! empty( $data ) ) {
+				 *
+				 * 		$metadata[ $key ] = $data;
+				 * 	}
+				 *
+				 * 	unset( $num, $data );
+				 * }
+				 */
 			}
 
 			$skip_keys  = array();

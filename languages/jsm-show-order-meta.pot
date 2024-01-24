@@ -17,11 +17,11 @@ msgstr ""
 msgid "Order Metadata"
 msgstr ""
 
-#: lib/order.php:112
+#: lib/order.php:116
 msgid "Key"
 msgstr ""
 
-#: lib/order.php:113
+#: lib/order.php:117
 msgid "Value"
 msgstr ""
 
