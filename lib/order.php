@@ -108,16 +108,16 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 				 */
 			}
 
-			$skip_keys  = array();
-			$metabox_id = 'jsmsom';
-			$admin_l10n = $cf[ 'plugin' ][ 'jsmsom' ][ 'admin_l10n' ];
+			$exclude_keys = array();
+			$metabox_id   = 'jsmsom';
+			$admin_l10n   = $cf[ 'plugin' ][ 'jsmsom' ][ 'admin_l10n' ];
 
 			$titles = array(
 				'key'   => __( 'Key', 'jsm-show-post-meta' ),
 				'value' => __( 'Value', 'jsm-show-post-meta' ),
 			);
 
-			return SucomUtilMetabox::get_table_metadata( $metadata, $skip_keys, $obj, $order_id, $metabox_id, $admin_l10n, $titles );
+			return SucomUtilMetabox::get_table_metadata( $metadata, $exclude_keys, $obj, $order_id, $metabox_id, $admin_l10n, $titles );
 		}
 
 		public function ajax_delete_meta() {
