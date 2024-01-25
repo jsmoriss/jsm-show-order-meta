@@ -10,7 +10,7 @@ Tags: woocommerce, orders, custom fields, meta, metadata, delete, debug, inspect
 Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.8
-Tested Up To: 6.4.2
+Tested Up To: 6.4.3
 Stable Tag: 4.0.0
 
 Show WooCommerce order metadata (aka custom fields) in a metabox when editing orders - a great tool for debugging issues with order metadata.
