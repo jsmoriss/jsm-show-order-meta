@@ -124,17 +124,11 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 			$doing_ajax = SucomUtilWP::doing_ajax();
 
-			if ( ! $doing_ajax ) {	// Just in case.
-
-				return;
-			}
+			if ( ! $doing_ajax ) return;
 
 			check_ajax_referer( JSMSOM_NONCE_NAME, '_ajax_nonce', $die = true );
 
-			if ( empty( $_POST[ 'obj_id' ] ) || empty( $_POST[ 'meta_key' ] ) ) {
-
-				die( -1 );
-			}
+			if ( empty( $_POST[ 'obj_id' ] ) || empty( $_POST[ 'meta_key' ] ) ) die( -1 );
 
 			$metabox_id   = 'jsmsom';
 			$obj_id       = SucomUtil::sanitize_int( $_POST[ 'obj_id' ] );
@@ -144,12 +138,8 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			$delete_cap   = apply_filters( 'jsmsom_delete_meta_capability', 'manage_options', $order_obj );
 			$can_delete   = current_user_can( $delete_cap, $obj_id, $order_obj );
 
-			if ( ! $can_delete ) {
+			if ( ! $can_delete ) die( -1 );
 
-				die( -1 );
-
-			}
-			
 			$order_obj->delete_meta_data( $meta_key );	// Does not return true/false.
 
 			$order_obj->save_meta_data();	// Does not return true/false.
