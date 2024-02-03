@@ -78,6 +78,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 4.1.0 (2024/02/03)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Added a new `SucomUtilWP::doing_dev()` method.
+* **Requires At Least**
+	* PHP v7.2.34.
+	* WordPress v5.8.
+
 **Version 4.0.0 (2024/01/20)**
 
 Initial release.
@@ -95,6 +109,10 @@ Initial release.
 	* WordPress v5.8.
 
 == Upgrade Notice ==
+
+= 4.1.0 =
+
+(2024/02/03) Added a new `SucomUtilWP::doing_dev()` method.
 
 = 4.0.0 =
 
