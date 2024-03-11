@@ -78,7 +78,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 4.2.0-dev.1 (2024/03/09)**
+**Version 4.2.0-rc.1 (2024/03/10)**
 
 * **New Features**
 	* None.
@@ -88,7 +88,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* None.
 * **Developer Notes**
 	* Added extra sanitation for method arguments in `SucomUtilMetabox::get_table_metadata()`.
-	* Added extra sanitation for 'post_ID' and 'action' in `SucomUtilWP::doing_block_editor()`.
+	* Added extra sanitation for 'post_ID' and 'action' values in `SucomUtilWP::doing_block_editor()`.
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
@@ -125,9 +125,9 @@ Initial release.
 
 == Upgrade Notice ==
 
-= 4.2.0-dev.1 =
+= 4.2.0-rc.1 =
 
-(2024/03/09) Added extra sanitation.
+(2024/03/10) Added extra sanitation.
 
 = 4.1.0 =
 
