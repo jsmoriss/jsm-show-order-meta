@@ -12,7 +12,7 @@
  * Description: Show WooCommerce order metadata (aka custom fields) in a metabox when editing orders - a great tool for debugging issues with order metadata.
  * Requires PHP: 7.2.34
  * Requires At Least: 5.8
- * Tested Up To: 6.5.0
+ * Tested Up To: 6.5.2
  * Version: 4.2.0
  *
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
