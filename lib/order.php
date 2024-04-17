@@ -59,7 +59,7 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 		public function show_metabox( WC_Order $obj ) {
 
-			echo $this->get_metabox( $obj );
+			echo $this->get_metabox( $obj );	// Outputs a complete HTML metabox.
 		}
 
 		public function get_metabox( WC_Order $obj ) {
