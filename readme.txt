@@ -6,7 +6,7 @@ Domain Path: /languages
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl.txt
 Assets URI: https://jsmoriss.github.io/jsm-show-order-meta/assets/
-Tags: woocommerce, orders, custom fields, meta, metadata, delete, debug, inspector
+Tags: woocommerce, orders, custom fields, metadata, inspector
 Contributors: jsmoriss
 Requires PHP: 7.2.34
 Requires At Least: 5.8
