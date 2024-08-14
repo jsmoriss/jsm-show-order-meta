@@ -1,8 +1,8 @@
-# Copyright (C) 2024 JSM Show Order Metadata for WooCommerce
-# This file is distributed under the same license as the JSM Show Order Metadata for WooCommerce package.
+# Copyright (C) 2024 JSM Show Order Metadata for WooCommerce HPOS
+# This file is distributed under the same license as the JSM Show Order Metadata for WooCommerce HPOS package.
 msgid ""
 msgstr ""
-"Project-Id-Version: JSM Show Order Metadata for WooCommerce 4.4.0\n"
+"Project-Id-Version: JSM Show Order Metadata for WooCommerce HPOS 4.4.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jsm-show-order-"
 "meta\n"
 "POT-Creation-Date: 2024-MO-DA HO:MI+ZONE\n"
@@ -30,7 +30,7 @@ msgid "Unable to delete meta key '{1}' for order ID {0}."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "JSM Show Order Metadata for WooCommerce"
+msgid "JSM Show Order Metadata for WooCommerce HPOS"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
@@ -39,8 +39,8 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Show WooCommerce order metadata (aka custom fields) in a metabox when "
-"editing orders - a great tool for debugging issues with order metadata."
+"Show WooCommerce order metadata in a metabox when editing HPOS orders - a "
+"great tool for debugging issues with HPOS order metadata."
 msgstr ""
 
 #. Author of the plugin/theme

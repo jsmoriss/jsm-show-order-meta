@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: JSM Show Order Metadata for WooCommerce
+ * Plugin Name: JSM Show Order Metadata for WooCommerce HPOS
  * Text Domain: jsm-show-order-meta
  * Domain Path: /languages
  * Plugin URI: https://surniaulula.com/extend/plugins/jsm-show-order-meta/
@@ -9,7 +9,7 @@
  * Author URI: https://surniaulula.com/
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
- * Description: Show WooCommerce order metadata (aka custom fields) in a metabox when editing orders - a great tool for debugging issues with order metadata.
+ * Description: Show WooCommerce order metadata in a metabox when editing HPOS orders - a great tool for debugging issues with HPOS order metadata.
  * Requires PHP: 7.2.34
  * Requires At Least: 5.8
  * Tested Up To: 6.6.1
