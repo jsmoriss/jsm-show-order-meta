@@ -1,8 +1,8 @@
-<h1>JSM Show Order Metadata for WooCommerce</h1>
+<h1>JSM Show Order Metadata for WooCommerce HPOS</h1>
 
 <table>
-<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM Show Order Metadata for WooCommerce</td></tr>
-<tr><th align="right" valign="top" nowrap>Summary</th><td>Show WooCommerce order metadata (aka custom fields) in a metabox when editing orders - a great tool for debugging issues with order metadata.</td></tr>
+<tr><th align="right" valign="top" nowrap>Plugin Name</th><td>JSM Show Order Metadata for WooCommerce HPOS</td></tr>
+<tr><th align="right" valign="top" nowrap>Summary</th><td>Show WooCommerce order metadata in a metabox when editing HPOS orders - a great tool for debugging issues with HPOS order metadata.</td></tr>
 <tr><th align="right" valign="top" nowrap>Stable Version</th><td>4.4.0</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires PHP</th><td>7.2.34 or newer</td></tr>
 <tr><th align="right" valign="top" nowrap>Requires WordPress</th><td>5.8 or newer</td></tr>
@@ -14,7 +14,9 @@
 
 <h2>Description</h2>
 
-<p>The JSM Show Order Metadata for WooCommerce plugin displays order meta keys and their unserialized values in a metabox at the bottom of the order editing page.</p>
+<p>The JSM Show Order Metadata for WooCommerce HPOS plugin displays order meta keys and their unserialized values in a metabox at the bottom of the HPOS order editing page.</p>
+
+<p>If you are NOT using WooCommerce HPOS (High-Performance Order Storage), then WooCommerce orders are post objects and you should use the <a href="https://wordpress.org/plugins/jsm-show-post-meta/">JSM Show Post Metadata</a> plugin instead.</p>
 
 <p>There are no plugin settings - simply install and activate the plugin.</p>
 
@@ -44,7 +46,7 @@
 
 <ul>
 <li><a href="https://wordpress.org/plugins/jsm-show-comment-meta/">JSM Show Comment Metadata</a></li>
-<li><a href="https://wordpress.org/plugins/jsm-show-order-meta/">JSM Show Order Metadata for WooCommerce</a></li>
+<li><a href="https://wordpress.org/plugins/jsm-show-order-meta/">JSM Show Order Metadata for WooCommerce HPOS</a></li>
 <li><a href="https://wordpress.org/plugins/jsm-show-post-meta/">JSM Show Post Metadata</a></li>
 <li><a href="https://wordpress.org/plugins/jsm-show-term-meta/">JSM Show Term Metadata</a></li>
 <li><a href="https://wordpress.org/plugins/jsm-show-user-meta/">JSM Show User Metadata</a></li>
