@@ -19,7 +19,7 @@ Show WooCommerce order metadata in a metabox when editing HPOS orders - a great 
 
 The JSM Show Order Metadata for WooCommerce HPOS plugin displays order meta keys and their unserialized values in a metabox at the bottom of the HPOS order editing page.
 
-If you are NOT using WooCommerce HPOS (High-Performance Order Storage), then WooCommerce orders are post objects and you should use the [JSM Show Post Metadata](https://wordpress.org/plugins/jsm-show-post-meta/) plugin instead.
+If you are not using WooCommerce HPOS (High-Performance Order Storage), available since WooCommerce v8.2, then your WooCommerce orders are post objects and you should use the [JSM Show Post Metadata](https://wordpress.org/plugins/jsm-show-post-meta/) plugin instead.
 
 There are no plugin settings - simply install and activate the plugin.
 
@@ -80,6 +80,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 4.6.0-dev.3 (2024/08/28)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Updated the `SucomUtil` and `SucomUtilWP` classed.
+* **Requires At Least**
+	* PHP v7.2.34.
+	* WordPress v5.8.
+	* WooCommerce v8.2.
+
 **Version 4.5.0 (2024/08/16)**
 
 * **New Features**
@@ -93,6 +108,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 **Version 4.4.0 (2024/08/12)**
 
@@ -107,6 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 **Version 4.3.0 (2024/04/18)**
 
@@ -121,6 +138,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 **Version 4.2.0 (2024/03/10)**
 
@@ -136,6 +154,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 **Version 4.1.0 (2024/02/03)**
 
@@ -150,6 +169,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 **Version 4.0.0 (2024/01/20)**
 
@@ -166,8 +186,13 @@ Initial release.
 * **Requires At Least**
 	* PHP v7.2.34.
 	* WordPress v5.8.
+	* WooCommerce v8.2.
 
 == Upgrade Notice ==
+
+= 4.6.0-dev.3 =
+
+(2024/08/28) Updated the `SucomUtil` and `SucomUtilWP` classed.
 
 = 4.5.0 =
 
