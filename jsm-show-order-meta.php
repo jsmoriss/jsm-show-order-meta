@@ -10,8 +10,8 @@
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl.txt
  * Description: Show WooCommerce order metadata in a metabox when editing HPOS orders - a great tool for debugging issues with HPOS order metadata.
- * Requires PHP: 7.2.34
- * Requires At Least: 5.8
+ * Requires PHP: 7.4.33
+ * Requires At Least: 5.9
  * Tested Up To: 6.6.2
  * Version: 4.6.0
  *
