@@ -131,7 +131,7 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			if ( empty( $_POST[ 'obj_id' ] ) || empty( $_POST[ 'meta_key' ] ) ) die( -1 );
 
 			$metabox_id   = 'jsmsom';
-			$obj_id       = SucomUtil::sanitize_int( $_POST[ 'obj_id' ] );
+			$obj_id       = SucomUtil::sanitize_int( $_POST[ 'obj_id' ] );	// Returns integer or null.
 			$meta_key     = SucomUtil::sanitize_meta_key( $_POST[ 'meta_key' ] );
 			$table_row_id = SucomUtil::sanitize_key( $metabox_id . '_' . $obj_id . '_' . $meta_key );
 			$order_obj    = wc_get_order( $obj_id );
