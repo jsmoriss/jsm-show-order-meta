@@ -80,6 +80,20 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 4.6.2-dev.1 (TBD)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* Fixed PHP v8.2 warning: Using `${var}` in strings is deprecated in lib/com/util.php.
+* **Developer Notes**
+	* None.
+* **Requires At Least**
+	* PHP v7.4.33.
+	* WordPress v5.9.
+
 **Version 4.6.1 (2024/11/25)**
 
 * **New Features**
@@ -96,6 +110,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WooCommerce v8.2.
 
 == Upgrade Notice ==
+
+= 4.6.2-dev.1 =
+
+(TBD) Fixed PHP v8.2 warning: Using `${var}` in strings is deprecated in lib/com/util.php.
 
 = 4.6.1 =
 
