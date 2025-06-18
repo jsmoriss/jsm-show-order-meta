@@ -80,6 +80,21 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
+**Version 4.7.0 (2025/06/18)**
+
+* **New Features**
+	* None.
+* **Improvements**
+	* None.
+* **Bugfixes**
+	* None.
+* **Developer Notes**
+	* Updated the `SucomUtil` class.
+* **Requires At Least**
+	* PHP v7.4.33.
+	* WordPress v5.9.
+	* WooCommerce v8.2.
+
 **Version 4.6.3 (2025/06/11)**
 
 * **New Features**
@@ -93,6 +108,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.4.33.
 	* WordPress v5.9.
+	* WooCommerce v8.2.
 
 **Version 4.6.2 (2024/12/26)**
 
@@ -107,6 +123,7 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 * **Requires At Least**
 	* PHP v7.4.33.
 	* WordPress v5.9.
+	* WooCommerce v8.2.
 
 **Version 4.6.1 (2024/11/25)**
 
@@ -124,6 +141,10 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WooCommerce v8.2.
 
 == Upgrade Notice ==
+
+= 4.7.0 =
+
+(2025/06/18) Updated the `SucomUtil` class.
 
 = 4.6.3 =
 
