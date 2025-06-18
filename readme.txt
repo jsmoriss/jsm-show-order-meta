@@ -19,7 +19,7 @@ Show WooCommerce order metadata in a metabox when editing HPOS orders - a great 
 
 The JSM Show Order Metadata for WooCommerce HPOS plugin displays order meta keys and their unserialized values in a metabox at the bottom of the HPOS order editing page.
 
-If you are not using WooCommerce HPOS (High-Performance Order Storage), available since WooCommerce v8.2, then your WooCommerce orders are post objects and you should use the [JSM Show Post Metadata](https://wordpress.org/plugins/jsm-show-post-meta/) plugin instead.
+If you are NOT using WooCommerce HPOS (High-Performance Order Storage), available since WooCommerce v8.2, then your WooCommerce orders are post objects and you should use the [JSM Show Post Metadata](https://wordpress.org/plugins/jsm-show-post-meta/) plugin instead.
 
 There are no plugin settings - simply install and activate the plugin.
 
