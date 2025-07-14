@@ -27,12 +27,12 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 		public function add_meta_boxes( $post_type, $obj ) {
 
-			$show_pts = apply_filters( 'jsmsom_metabox_post_types', array(
+			$add_mb_pts = apply_filters( 'jsmsom_metabox_post_types', array(
 				'woocommerce_page_wc-orders',
 				'woocommerce_page_wc-orders--shop_subscription',
 			) );
 
-			if ( ! in_array( $post_type, $show_pts ) ) {
+			if ( ! in_array( $post_type, $add_mb_pts ) ) {
 
 				return;
 
