@@ -27,7 +27,16 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 		public function add_meta_boxes( $post_type, $obj ) {
 
-			if ( 'woocommerce_page_wc-orders' !== $post_type ) {
+			$show_pts = apply_filters( 'jsmsom_metabox_post_types', array(
+				'woocommerce_page_wc-orders',
+				'woocommerce_page_wc-orders--shop_subscription',
+			) );
+
+			if ( ! in_array( $post_type, $show_pts ) ) {
+
+				return;
+
+			} elseif ( ! is_callable( array( $obj, 'get_id' ) ) ) {
 
 				return;
 
