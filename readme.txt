@@ -17,7 +17,7 @@ Show WooCommerce order metadata in a metabox when editing HPOS orders - a great 
 
 == Description ==
 
-The JSM Show Order Metadata for WooCommerce HPOS plugin displays order meta keys and their unserialized values in a metabox at the bottom of the HPOS order editing page.
+The JSM Show Order Metadata for WooCommerce HPOS plugin displays order meta keys and unserialized values in a metabox at the bottom of the WooCommerce HPOS order and WooCommerce Subscriptions editing pages.
 
 Note that if you're NOT using WooCommerce HPOS (High-Performance Order Storage), available since WooCommerce v8.2, then your WooCommerce orders are post objects and you should use the [JSM Show Post Metadata](https://wordpress.org/plugins/jsm-show-post-meta/) plugin instead.
 
@@ -26,6 +26,10 @@ There are no plugin settings - simply install and activate the plugin.
 = Available Filters for Developers =
 
 Filter the order meta shown in the metabox:
+
+<pre><code>'jsmsom_metabox_post_types' ( array $post_types )</code></pre>
+
+Array of supported HPOS post types (i.e. 'woocommerce_page_wc-orders' and 'woocommerce_page_wc-orders--shop_subscription').
 
 <pre><code>'jsmsom_metabox_table_metadata' ( array $metadata, $order_obj )</code></pre>
 
@@ -80,12 +84,12 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 
 <h3>Changelog / Release Notes</h3>
 
-**Version 4.7.0 (2025/06/18)**
+**Version 4.8.0 (2025/07/14)**
 
 * **New Features**
 	* None.
 * **Improvements**
-	* None.
+	* Added support for the WooCommerce Subscriptions post type ('woocommerce_page_wc-orders--shop_subscription').
 * **Bugfixes**
 	* None.
 * **Developer Notes**
@@ -95,66 +99,9 @@ Version components: `{major}.{minor}.{bugfix}[-{stage}.{level}]`
 	* WordPress v5.9.
 	* WooCommerce v8.2.
 
-**Version 4.6.3 (2025/06/11)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* Added a call to `clean_post_cache()` in `SucomUtilWP::raw_update_post()`.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.4.33.
-	* WordPress v5.9.
-	* WooCommerce v8.2.
-
-**Version 4.6.2 (2024/12/26)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* Fixed PHP v8.2 warning: Using `${var}` in strings is deprecated in lib/com/util.php.
-* **Developer Notes**
-	* None.
-* **Requires At Least**
-	* PHP v7.4.33.
-	* WordPress v5.9.
-	* WooCommerce v8.2.
-
-**Version 4.6.1 (2024/11/25)**
-
-* **New Features**
-	* None.
-* **Improvements**
-	* None.
-* **Bugfixes**
-	* None.
-* **Developer Notes**
-	* Updated the `SucomUtil` and `SucomUtilWP` classes.
-* **Requires At Least**
-	* PHP v7.4.33.
-	* WordPress v5.9.
-	* WooCommerce v8.2.
-
 == Upgrade Notice ==
 
 = 4.7.0 =
 
-(2025/06/18) Updated the `SucomUtil` class.
-
-= 4.6.3 =
-
-(2025/06/11) Added a call to `clean_post_cache()` in `SucomUtilWP::raw_update_post()`.
-
-= 4.6.2 =
-
-(2024/12/26) Fixed PHP v8.2 warning: Using `${var}` in strings is deprecated in lib/com/util.php.
-
-= 4.6.1 =
-
-(2024/11/25) Updated the `SucomUtil` and `SucomUtilWP` classes.
+(2025/07/14) Updated the `SucomUtil` class.
 
