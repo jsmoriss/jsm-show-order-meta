@@ -10,7 +10,7 @@ Tags: woocommerce, orders, custom fields, metadata, inspector
 Contributors: jsmoriss
 Requires PHP: 7.4.33
 Requires At Least: 5.9
-Tested Up To: 6.8.3
+Tested Up To: 6.9
 Stable Tag: 4.8.0
 
 Show WooCommerce order metadata in a metabox when editing HPOS orders - a great tool for debugging issues with HPOS order metadata.
