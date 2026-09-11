@@ -150,8 +150,7 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 			if ( ! $can_delete ) die( -1 );
 
 			$order_obj->delete_meta_data( $meta_key );	// Does not return true/false.
-
-			$order_obj->save_meta_data();	// Does not return true/false.
+			$order_obj->save_meta_data();			// Does not return true/false.
 
 			die( $table_row_id );
 		}
