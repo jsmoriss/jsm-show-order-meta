@@ -141,7 +141,7 @@ if ( ! class_exists( 'JsmSomOrder' ) ) {
 
 			$metabox_id   = 'jsmsom';
 			$obj_id       = SucomUtil::sanitize_int( $_POST[ 'obj_id' ] );		// Returns integer or null.
-			$meta_key     = SucomUtil::sanitize_meta_key( $_POST[ 'meta_key' ] );	// Decode/remove html/js/css and quotes.
+			$meta_key     = SucomUtil::sanitize_meta_key( $_POST[ 'meta_key' ] );	// Decode and remove html/js/css and quotes.
 			$table_row_id = SucomUtil::sanitize_key( $metabox_id . '_' . $obj_id . '_' . $meta_key );
 			$order_obj    = wc_get_order( $obj_id );
 			$delete_cap   = apply_filters( 'jsmsom_delete_meta_capability', 'manage_options', $order_obj );
