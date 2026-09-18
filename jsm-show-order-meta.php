@@ -12,7 +12,7 @@
  * Description: Show WooCommerce order metadata in a metabox when editing HPOS orders - a great tool for debugging issues with HPOS order metadata.
  * Requires PHP: 7.4.33
  * Requires At Least: 6.0
- * Tested Up To: 7.1
+ * Tested Up To: 7.1.1
  * Version: 4.9.1
  *
  * Version Numbering: {major}.{minor}.{bugfix}[-{stage}.{level}]
